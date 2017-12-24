@@ -30,23 +30,25 @@ _**Methodology:**_
   The website was built using HTML, PHP, and Javascript. 
   
   1. Source of Data:
-    The financial data is taken from [Alpha Vantage's API](https://www.alphavantage.co/documentation/). 
-    The API provides data in the form of JSON objects, which is then parsed into a PHP array for processing. 
-    
-  To access Alpha Vantage's API, a call to their URL must be made with the appropriate stock ticker code/forex code that you want to look up. 
+  
+      The financial data is taken from [Alpha Vantage's API](https://www.alphavantage.co/documentation/). 
+
+      The API provides data in the form of JSON objects, which is then parsed into a PHP array for processing. 
+
+      To access Alpha Vantage's API, a call to their URL must be made with the appropriate stock ticker code/forex code that you want to look up. 
     
   2. Retrieving Stock Names and Symbols
   
-  There are 500 companies on the S&P500 index, which is the scope of the stock data provided by Investa.
+      There are 500 companies on the S&P500 index, which is the scope of the stock data provided by Investa.
 
-  To create a list of those 500 company names and their symbols, a script was created 
-  using Python to parse the names and corresponding symbols from the [Wikipedia Page](https://en.wikipedia.org/wiki/List_of_S%26P_500_companies) of the S&P500.
+      To create a list of those 500 company names and their symbols, a script was created 
+      using Python to parse the names and corresponding symbols from the [Wikipedia Page](https://en.wikipedia.org/wiki/List_of_S%26P_500_companies) of the S&P500.
 
-  The information parsed from the Wikipedia Page is outputted into a textfile, which is processed into an array by PHP and used in the Investa website.
+      The information parsed from the Wikipedia Page is outputted into a textfile, which is processed into an array by PHP and used in the Investa website.
     
   3. Forex Currency Conversion
-  
-  A call to Alpha Vantage API with corresponding currency pair codes is made to retrieve the current conversion rate.
+     
+      A call to Alpha Vantage API with corresponding currency pair codes is made to retrieve the current conversion rate.
     
 _**Limitations:**_ 
 
@@ -68,9 +70,9 @@ _**Limitations:**_
         
   3. Functionality and Relevance
   
-  More functionality can be added in succeeding versions to process data and provide investors with useful analyses and forecasts. 
+     More functionality can be added in succeeding versions to process data and provide investors with useful analyses and forecasts. 
   
-  Future additions:
+      Future additions:
     * Create graph of price movement per stock
     * Add more currencies for forex conversion
 
