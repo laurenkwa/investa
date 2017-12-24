@@ -1,0 +1,25 @@
+body {
+text-align:center;
+width:100%;
+}
+
+td {
+    border-spacing: 50px;
+    padding: 30px;
+    
+    
+}
+
+#mainNav{
+    background-color:black;
+    color:white;
+    text-align:right;
+}
+
+#mainNav a{
+    color:white;
+}
+
+#currencyExchange {
+    
+}

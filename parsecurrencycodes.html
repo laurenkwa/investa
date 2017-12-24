@@ -1,0 +1,30 @@
+<?php
+
+ini_set("allow_url_fopen", 1);
+
+
+$url = "currencycodes.txt";
+
+$obj = json_decode(file_get_contents($url), true);
+
+?>
+
+<html>
+	<head>
+	<title>Regions of the World</title>
+    <link rel = "stylesheet" type = "text/css" href = "style/bootstrap.min.css"/>    
+	<link rel="stylesheet" href="style/style.css">
+    <script src="currencycodes.json"></script>
+	</head>
+	<body onload="load()">
+    <script type="text/javascript">
+   function load() {
+	var mydata = JSON.parse("currencycodes.json");
+	for (var i=0; i<data.length; i++) {
+        document.write(mydata[i].name);
+    }
+    }
+        
+	</script>
+	</body>
+</html>
