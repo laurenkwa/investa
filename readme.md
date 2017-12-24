@@ -12,16 +12,16 @@ Investa is a website that provides its users with current and historical data fo
 
 _**Scope of Investa:**_
 1. Forex Converter - provides real time currency exchange rate for the following currencies:
-  * US dollar
-* Canadian Dollar
-* Korean Won
-* Euro
-* British Pound Sterling
-* Japanese Yen
-* Swiss franc
-* Australian Dollar
+      * US dollar
+    * Canadian Dollar
+    * Korean Won
+    * Euro
+    * British Pound Sterling
+    * Japanese Yen
+    * Swiss franc
+    * Australian Dollar
 
-    A calculator is also provided that allows a user to input a base currency amount and compute for the corresponding amount in a converted currency.
+        A calculator is also provided that allows a user to input a base currency amount and compute for the corresponding amount in a converted currency.
 
 2. Standard & Poor's 500 Index - provides current and historical stock prices and trade volumes per company in the current S&P Index
 
@@ -73,8 +73,8 @@ _**Limitations:**_
      More functionality can be added in succeeding versions to process data and provide investors with useful analyses and forecasts. 
   
       Future additions:
-    * Create graph of price movement per stock
-    * Add more currencies for forex conversion
+        * Create graph of price movement per stock
+        * Add more currencies for forex conversion
 
      
         
