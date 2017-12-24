@@ -60,12 +60,14 @@ _**Limitations:**_
         To access and output the data from the API, the required format was hard coded into the website. 
         
         For example, the JSON data provided by the API is in a set structure. Investa receives the array and outputs the data in the order that the array is given. If Alpha Vantage changes its format structure, the Investa website will not work. 
+        
         Possible Solution: modify website code to parse the data received from the API and arrange it according to our own structure.
         
   2. Python Script
   
         A Python script is used to parse data from Wikipedia to create a list of current S&P500 companies and their corresponding ticker symbols.
         The script is not run automatically, meaning the owner must run it manually to update the list on a periodical basis.
+        
         Possible Solution: Automate script to update the list.
         
   3. Functionality and Relevance
