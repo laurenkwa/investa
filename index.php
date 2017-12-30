@@ -100,6 +100,9 @@ session_start();
                         <p>Languages used: HTML, PHP, Javascript</p>
                         <br/><br/>
                         <p>Created by Lauren Kwa</p>
+                        <p>
+                            <a href="https://github.com/laurenkwa/investa" target="_blank"><button class="button special">Github Link</button></a>
+                        </p>
                         <p><a href="#aboutLauren"><button class="button special">Learn more about the author</button></a></p>
                 </section>
             </div>
@@ -121,21 +124,21 @@ session_start();
                     <p>She is interested in software development and investing. For fun, she decided to combine those two hobbies into a project, so she created this website.</p>
                     <br/><br/>
                     <hr/>
+                    <br/><br/>
+                    <div class="wrapper align-center"><h3>Get Connected</h3></div>
                     <div class="wrapper align-center">
-                        <h2>Get Connected</h2>
-                        <p>
-                            <a href="https://www.linkedin.com/in/laurenkwa/" target="_blank">   
-                                <button class="button special">Linked In</button>
-                            </a>
-                            <br/><br/>
-                            <a href="https://github.com/laurenkwa" target="_blank">   
-                                <button class="button special">Github</button>
-                            </a>
-                            <br/><br/>
-                            <a href="http://laurenkwa.com" target="_blank">   
-                                <button class="button special">Personal Website</button>
-                            </a>
-                        </p>   
+                        <a href="https://www.linkedin.com/in/laurenkwa/" target="_blank"> 
+                            <button class="button special">Linked In</button>
+                        </a>
+                        <br/><br/>
+                        <a href="https://github.com/laurenkwa" target="_blank">   
+                            <button class="button special">Github</button>
+                        </a>
+                        <br/><br/>
+                        <a href="http://laurenkwa.com" target="_blank">   
+                            <button class="button special">Personal Website</button>
+                        </a>
+                           
                     </div> 
                 </div>    
                 <hr class="major"/>
